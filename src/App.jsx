@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <SideNav selectedPokemon={selectedPokemon}
-      setselectedPokemon = {setSelectedPokemon}/>
+      setSelectedPokemon = {setSelectedPokemon}/>
       <PokeCard selectedPokemon = {selectedPokemon}/>
     </>
   )
