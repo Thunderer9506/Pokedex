@@ -1,12 +1,98 @@
-# React + Vite
+# Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Pokédex web app built with React and Vite. Instantly browse, search, and explore the first 151 Pokémon with detailed stats, types, and moves. Fast, responsive, and easy to use!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Browse All Pokémon:** View the original 151 Pokémon with their official numbers and names.
+- **Search Instantly:** Filter Pokémon by name or number in real time.
+- **Detailed Pokémon Cards:** See stats, types, and sprite images for each Pokémon.
+- **Move Descriptions:** Click on a move to view its description in a modal.
+- **Responsive Design:** Works great on desktop and mobile devices.
+- **Fast & Lightweight:** Powered by Vite and React 19.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd pokedex
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+4. **Build for production:**
+   ```sh
+   npm run build
+   ```
+   The production-ready files will be in the `dist` folder.
+
+---
+
+## 🌐 Live Demo
+
+Check out the live site here:  
+**[Pokédex Website](https://pokemon-search-webapp.netlify.app/)**
+
+---
+
+## 📁 Project Structure
+
+```
+pokedex/
+├── public/
+├── src/
+│   ├── components/
+│   ├── utils.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+└── ...
+```
+
+---
+
+## 📝 Scripts
+
+- `npm run dev` — Start the development server
+- `npm run build` — Build for production
+- `npm run preview` — Preview the production build
+- `npm run lint` — Lint the codebase
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+**Made with ❤️ using React and Vite.**
