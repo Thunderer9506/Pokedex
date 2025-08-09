@@ -85,7 +85,7 @@ pokedex/
 
 ## Live Site
 
-- [Live Site](https://project-caffiend.netlify.app/)
+- [project-caffiend.netlify.app](https://project-caffiend.netlify.app/)
 
 ---
 
